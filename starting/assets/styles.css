@@ -1,0 +1,139 @@
+@import url("fonts.css");
+
+nav,
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li {
+    font-size: x-large;
+    padding-right: 20px;
+    top: -5%;
+    text-decoration: none;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: 'lemon milk pro regular', sans-serif;
+}
+
+.logo {
+    max-width: 12rem;
+}
+
+h1,
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+p strong#lemon-milk-bold {
+    font-family: 'lemon milk pro bold';
+    font-weight: normal;
+}
+
+p em#lemon-milk-italics {
+    font-family: 'lemon milk pro regular-it';
+    font-style: normal;
+}
+
+.colors,
+.fonts {
+    margin-bottom: 5px;
+}
+
+.color-list div {
+    display: inline-block;
+    margin: 5px;
+}
+
+article section.content {
+    border: 1.5px solid grey;
+    padding: 20px;
+}
+
+div.color-circle {
+    border-radius: 200px;
+    max-width: fit-content;
+    padding: 35px;
+}
+
+.color-circle p {
+    text-align: center;
+    line-height: 2;
+}
+
+#brand-red {
+    background-color: #9C3948;
+    color: white;
+}
+
+#brand-blue {
+    background-color: #47A9BC;
+    color: white;
+}
+
+#brand-green {
+    background-color: #5D8004;
+    color: white;
+}
+
+#brand-darkorange {
+    background-color: #FB610B;
+    color: white;
+}
+
+#brand-yellow {
+    background-color: #F5DC01;
+}
+
+#brand-lightorange {
+    background-color: #FFAD68;
+}
+
+h3.font-header {
+    text-decoration: underline;
+}
+
+p.font-example {
+    line-height: 2;
+}
+
+section .zilla-font {
+    font-family: "Zilla Slab", serif;
+}
+
+section .zilla-font .font-header {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+section .zilla-font .font-example {
+    font-size: larger;
+}
+
+.h1-textstyles {
+    font-family: "lemon milk pro bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.h2-textstyles {
+    font-family: "lemon milk pro medium", sans-serif;
+    font-size: 40px;
+}
+
+.p-textstyles {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-size: 30px;
+}
